@@ -78,8 +78,6 @@ task/
 │   ├── 03_make_report_figures.py     ← per-cohort figures + summary CSV
 │   ├── 04_make_fpfn_figures.py        ← FP/FN consensus analysis
 │   ├── stain_norm.py                  ← Macenko normalisation (evaluated & rejected)
-│   ├── make_pptx.py                   ← builds presentation/slides.pptx
-│   └── make_report_html.py            ← builds self-contained report/report.html
 │
 ├── results/                           ← every artefact lands here
 │   ├── classical/
@@ -92,14 +90,7 @@ task/
 │   ├── per_image_all_methods.csv      ← long-form, every method × image
 │   ├── method_agreement.csv           ← pairwise foreground-IoU per image
 │   └── figures/                       ← 11 figures used in the report
-│
-├── report/
-│   ├── report.md                      ← long-form write-up (Markdown)
-│   └── report.html                    ← self-contained HTML report (~26 MB, embedded images)
-│
-├── presentation/
-│   ├── slides.md                      ← Marp source (Markdown)
-│   └── slides.pptx                    ← rich PowerPoint deck (built by make_pptx.py)
+
 ```
 
 ---
@@ -132,10 +123,7 @@ python code/01_run_segmentation.py --method classical
 python code/01_run_segmentation.py --method stardist
 python code/01_run_segmentation.py --method cellpose
 python code/02_compare_methods.py
-python code/03_make_report_figures.py
-python code/04_make_fpfn_figures.py
-python code/make_pptx.py
-python code/make_report_html.py
+
 ```
 
 ### Useful flags
