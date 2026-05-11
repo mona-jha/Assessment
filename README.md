@@ -256,9 +256,6 @@ All three methods agree on the rank ordering of cohorts.
 | Pairwise method agreement (IoU)         | `results/method_agreement.csv`                       |
 | Long-form per-image table               | `results/per_image_all_methods.csv`                  |
 | 11 figures (qualitative, stats, FP/FN, norm) | `results/figures/0[1-9]_*.png`, `1[0-1]_*.png` |
-| Long-form report (Markdown)             | `report/report.md`                                   |
-| Self-contained HTML report              | `report/report.html`                                 |
-| Slide deck (Marp source + PowerPoint)   | `presentation/slides.md`, `presentation/slides.pptx` |
 
 ---
 
