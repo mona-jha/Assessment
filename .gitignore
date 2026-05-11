@@ -1,0 +1,35 @@
+# --- Python --------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+
+# --- Virtual envs --------------------------------------------------
+.venv/
+venv/
+env/
+
+# --- OS ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# --- Editors -------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Project artefacts you may NOT want in git ---------------------
+# Keep results/ tracked - they ARE the deliverable.
+# But ignore in-progress and per-run noise:
+results/**/run.log
+*.tmp
+*.bak
+
+# --- Pretrained model weights (large, downloaded separately) -------
+# These live OUTSIDE the repo (~/.cellpose, ~/.stardist) but just in case
+*.h5
+*.pt
+*.pth
+cpsam

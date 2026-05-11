@@ -1,0 +1,15 @@
+# Deep-learning baselines (optional). These take longer to install than
+# the classical pipeline and pull in PyTorch/TensorFlow, so they are kept
+# in a separate file. Install with:
+#     pip install -r code/requirements_deeplearning.txt
+#
+# Notes for Apple Silicon (MacBook Pro CPU):
+#   - cellpose -> brings in torch (CPU build is fine for 50 small images)
+#   - stardist -> needs tensorflow; on Apple Silicon use tensorflow-macos
+#   - opencv/numpy already pinned by the main requirements file
+cellpose
+torch
+stardist
+csbdeep
+tensorflow-macos ; platform_system == "Darwin" and platform_machine == "arm64"
+tensorflow ; platform_system != "Darwin" or platform_machine != "arm64"

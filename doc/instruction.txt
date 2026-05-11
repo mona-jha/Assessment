@@ -1,0 +1,14 @@
+Syngene/BBRC Digital Pathology Task
+
+The shared zip folder (Assessment.zip) contains 5 sub folders:
+
+	1. CRC (Colorectal Carcinoma)
+	2. NSCLC_AD (Non-Small Cell Lung Carcinoma - Adenocarcinoma)
+	3. NSCLC_SCC (Non-Small Cell Lung Carcinoma – Squamous Cell Carcinoma)
+	4. BRC (Breast Carcinoma)
+	5. HCC (Hepato-Cellular Carcinoma)
+	6. Each folder contains 10 H&E images.
+
+Task: Detect & Quantify every nucleus in the provided images using conventional image processing/ Machine Learning/ Deep Learning approach.
+
+Expectation: Presentation with the team with information including but not limited to the results, data analysis & the detailed approach
